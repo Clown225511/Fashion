@@ -1,0 +1,261 @@
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+header div {
+    float: left;
+}
+header div img {
+    max-height: 200px ;
+    max-width: 200px;
+}
+header p {
+    float: left;
+    font-size: 1.5vw;
+    padding: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 3px 3px 3px yellow;
+    animation: doimauchu 1s ease infinite;
+}
+@keyframes doimauchu {
+    to {color: black;}
+    from {color: red;}
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    clear: both;
+    background-color: rgb(0, 255, 179);
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    width: auto;
+    height:auto;
+    display: block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+    border: 0.5px solid blue;
+}
+nav ul li:nth-child(5) a {
+    border-right: none;
+}
+nav ul li:nth-child(4) {
+    margin-left: auto;
+}
+nav ul li a:hover {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+section img {
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #09a39b;
+}
+
+.cacsanpham {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cacsanpham .sanpham {
+    width: 23.5%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px gray;
+    margin-bottom: 10px;
+    overflow: hidden;
+   margin: 5px 5px;
+}
+
+.cacsanpham .sanpham div img {
+   max-width: 100%;
+   height: 300px;
+   margin: 0px auto;
+    transition: all 1s ease;
+}
+
+
+.cacsanpham .sanpham div img:hover {
+    transform: scale(1.1);
+}
+
+.cacsanpham .sanpham h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(163, 198, 7);
+    margin: 10px 0;
+}
+.cacsanpham .sanpham p {
+    text-align: center;
+
+}
+.nam{
+    width: 80%;
+    clear: both;
+    margin: 15px auto;
+}
+.nam h2 {
+    padding: 5px;
+    margin-top: 15px;
+    border-top-right-radius: 20px 30px;
+    background-color:#09a39b ;
+    clear: both;
+    text-transform: uppercase;
+    color: blueviolet;
+    width: 9%;
+}
+button:hover {
+  background-color: rgb(253, 253, 253);
+}
+
+hr {
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid #09a39b;
+    background-color: #09a39b;
+}
+
+.tongdv {
+    background-color: rgb(139, 136, 136);
+    color: white;
+    width: 100%;
+    margin: 0px auto;
+}
+.tongdv .tongdvv{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+.tongdv .tong h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: black;
+    margin: 10px 0;
+}
+.tongdv .tongdvv .tong {
+    width: 17%;
+    padding: 15px;
+}
+.tongdv .tong p{
+    text-align: justify;
+    font-size: 15px;
+}
+.tongdv .tongbao {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+}
+.tongdv .tongbao .thongbao {
+    width: 33.33%;
+    padding: 30px;
+}
+.tongdv .tongbao .thongbao h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(7, 7, 6);
+    margin: 10px 0;
+}
+.tongdv .tongbao .thongbao p {
+    color: black;
+}
+
+.tongdv .tongbao .thongbao img {
+    max-width: 50%;
+    max-height: 100%;
+}
+.tongdv .tongbao .thongbao form input[type=text],
+.tongdv .tongbao .thongbao form input[type=email]{
+    background-color: white;
+    color: rgb(29, 25, 25);
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+.tongdv .tongbao .thongbao form input[type=submit]{
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #cdcee5;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+}
+.tongdv .tongbao .thongbao .duongdaynong {
+    padding-left: 100px;
+    color : black;
+}
+#tongketthuc div{
+text-align: center;
+margin: 0px auto;
+color: black;
+}
+.email{
+    color: blue;
+}
+#tongketthuc{
+    background-color: #d72525;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.giohang img {
+    width: 20px;
+    height: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+  }
+  html, body{
+    height: 100%;
+  }
+  body{
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    background: linear-gradient(to bottom, #7927b2, #fb3182);
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    background: tomato;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  

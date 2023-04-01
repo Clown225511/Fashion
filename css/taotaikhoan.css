@@ -1,0 +1,138 @@
+
+*{
+   
+    margin:0px;
+    margin-bottom: 0px;
+}
+header {
+    width: 80%;
+    margin: 0px auto;
+}
+header div img {
+    max-height: 200px ;
+    max-width: 200px;
+}
+header p {
+    float: left;
+    font-size: 1.5vw;
+    padding: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 3px 3px 3px yellow;
+    animation: doimauchu 1s ease infinite;
+}
+@keyframes doimauchu {
+    to {color: black;}
+    from {color: red;}
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    clear: both;
+    background-color: rgb(0, 255, 179);
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    width: auto;
+    height:auto;
+    display: block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+    border: 0.5px solid blue;
+}
+nav ul li:nth-child(5) a {
+    border-right: none;
+}
+nav ul li:nth-child(4) {
+    margin-left: auto;
+}
+nav ul li a:hover {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+section img {
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #09a39b;
+    display: flex;
+}
+
+
+section{
+    margin: 50px auto;
+    background-color: rgb(247, 185, 185);
+    opacity: 0.8;
+    width: 700px;
+    height: auto;
+}
+section>h3{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    padding-top: 10px;
+}
+fieldset {
+    border: 0px solid white;
+    padding: 15px;
+    margin-left: 200px;
+    }
+input[type="submit"], input[type="reset"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 1px 2px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+input[type="text"], input[type="password"],input[type="email"], input[type="tel"], textarea {
+    width: 70%;
+    padding: 20px ;
+    border: 0px solid #ccc;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+input[name="nam"]{
+    width: 50px;
+}
+table td:first-child {
+    font-weight: bold;
+    }
+
+input[type="radio"] {
+    margin-right: 5px;
+    }
+input[type="submit"] {
+    width:200px;
+    height:50px;
+    background: linear-gradient(#a5b4c4, #206AB5, #206AB5);
+}
+
+body{
+    background: url(../img/hinhnen.jpg) no-repeat center/ cover;
+}
+section a{
+    float:right;
+    text-align: right;
+    text-decoration: none;
+}
+
+
+
+
